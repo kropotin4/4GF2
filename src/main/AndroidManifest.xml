@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.ktn.a4gf">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Algorithms.LegandreActivity" />
+        <activity android:name=".Algorithms.JakobiActivity" />
+        <activity android:name=".Algorithms.QuadrantActivity" />
+        <activity
+            android:name=".Algorithms.LogarithmActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".Algorithms.LinearActivity" />
+        <activity android:name=".Algorithms.DegreeActivity" />
+        <activity android:name=".Algorithms.SystemActivity" />
+        <activity android:name=".Algorithms.ElMultipleActivity" />
+        <activity android:name=".Algorithms.ElAddActivity" />
+        <activity android:name=".Algorithms.ElOrderActivity" />
+        <activity android:name=".Algorithms.ElPointActivity" />
+        <activity android:name=".Algorithms.TDetermActivity" />
+        <activity android:name=".Algorithms.TProbablyActivity"></activity>
+    </application>
+
+</manifest>

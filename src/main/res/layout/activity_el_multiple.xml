@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Algorithms.ElMultipleActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ElMulttextMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15pt"
+                    android:layout_weight="1"
+                    android:text="Ep (a, b)"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ElMulttextA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15pt"
+                    android:text="@string/a" />
+
+                <EditText
+                    android:id="@+id/ElMulteditA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/ElMulttextB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15pt"
+                    android:text="@string/b" />
+
+                <EditText
+                    android:id="@+id/ElMulteditB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/ElMulttextP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15pt"
+                    android:text="@string/p" />
+
+                <EditText
+                    android:id="@+id/ElMulteditP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginVertical="9dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ElMulttextMain2"
+                    android:layout_marginStart="15pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="M * N = R (x2, y2)" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ElMulttextM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15pt"
+                    android:textSize="16sp"
+                    android:text="M (x, y)" />
+
+                <TextView
+                    android:id="@+id/ElMulttextX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15pt"
+                    android:text="x:" />
+
+                <EditText
+                    android:id="@+id/ElMulteditX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="5"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/ElMulttextY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15pt"
+                    android:text="y:" />
+
+                <EditText
+                    android:id="@+id/ElMulteditY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="5"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ElMulttextN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="15pt"
+                    android:textSize="16sp"
+                    android:text="N:" />
+
+                <EditText
+                    android:id="@+id/ElMulteditN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="5"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginVertical="9dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ElMulttextRes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12pt"
+                    android:layout_weight="1"
+                    android:text="@string/show_result" />
+
+                <Button
+                    android:id="@+id/ElMultbtnSolve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/solve" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ElMulttextAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

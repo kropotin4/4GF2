@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.ktn.a4gf.EllipseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Tbtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="7dp"
+            android:layout_marginHorizontal="5dp"
+
+            android:background="@drawable/battonshape"
+            android:text="Вероятностные тесты" />
+
+        <Button
+            android:id="@+id/Tbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="7dp"
+            android:layout_marginHorizontal="5dp"
+
+            android:background="@drawable/battonshape"
+            android:text="Детерменированные тесты" />
+
+
+    </LinearLayout>
+</FrameLayout>

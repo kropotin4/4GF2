@@ -1,0 +1,128 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragm_compare"
+    tools:context="ru.ktn.a4gf.CompareFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="@string/deg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:text="@string/sL" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:text="@string/sJ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/lin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_light"
+                android:text="@string/quad" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                android:text="@string/log" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/sys" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

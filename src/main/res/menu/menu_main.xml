@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_main"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/item_choose_pageTrans"
+        android:title="Выбор слайдинга">
+        <menu >
+            <item
+                android:id="@+id/item_choose1"
+                android:title="DefaultTransformer"
+                android:checkable="true" />
+            <item
+                android:id="@+id/item_choose2"
+                android:title="AccordionTransformer"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/item_choose3"
+                android:title="ZoomOutSlideTransformer"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/item_choose4"
+                android:title="ZoomOutTransformer"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/item_choose5"
+                android:title="RotateUpTransformer"
+                android:checkable="true"
+                android:checked="true"/>
+        </menu>
+    </item>
+
+
+
+</menu>

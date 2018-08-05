@@ -1,0 +1,36 @@
+<resources>
+
+    <item name="solve_id" type="id" />
+
+    <string name="app_name">4GF2</string>
+    <string name="l_a_p">L (a, p) =</string>
+    <string name="a">a:</string>
+    <string name="b">b:</string>
+    <string name="show_result">Show Result</string>
+    <string name="solve">Solve</string>
+    <string name="sL">Символ Лежандра</string>
+    <string name="sJ">Символ Якоби</string>
+    <string name="quad">Квадратное сравнение</string>
+    <string name="log">Логарифмическое сравнение</string>
+    <string name="clear">Очистить поле</string>
+    <string name="j_a_p">J (a, p) =</string>
+    <string name="p">p:</string>
+    <string name="x2">x<sup><small>2</small></sup> ≡ a (mod p)</string>
+    <string name="ax">a<sup><small>x</small></sup> ≡ b (mod p)</string>
+    <string name="ax2">a*x ≡ b (mod p)</string>
+    <string name="about">О программе</string>
+    <string name="lin">Линейное сравнение</string>
+    <string name="sys">Система сравнений</string>
+    <string name="deg">Возведение числа в степень</string>
+    <string name="ab">a<sup><small>b</small></sup> ≡ (mod p) =</string>
+    <string name="col">Количество уровнений:</string>
+    <string name="cont">Продолжить</string>
+    <string name="Alg">Алгоритмы:</string>
+    <string name="Alg_sogl">Согласования</string>
+    <string name="Alg_polis">Полига-Хеллмана</string>
+    <string name="Alg_pol">Полларда</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ElMulteText">Умножение точки на число</string>
+</resources>
